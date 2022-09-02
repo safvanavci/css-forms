@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Form</title>
+</head>
+<body>
+    
+<form action="">
+
+    <div class="border">
+        <label  for="ad"><i class="fa-solid fa-user"></i></label>
+        <input  id="ad" type="text" name="name" placeholder="Name" required>
+    </div>
+    <div class="border">
+        <label  for="tel"><i class="fa-solid fa-phone"></i></label>
+        <input id="tel" type="tel" placeholder="Phone Number">
+    </div>
+    <div class="border">
+        <label for="email"><i class="fa-solid fa-envelope"></i></label>
+        <input id="email" type="email" name="mail" placeholder="Mail" required>
+    </div>
+    <div class="border">
+        <label for="password"><i class="fa-solid fa-key"></i></label>
+        <input type="password" id="password" name="password" placeholder="Password" maxlength="8" required>
+    </div>
+    <div class="border">
+        <label for="password"><i class="fa-solid fa-key"></i></label>
+        <input type="password" id="password" name="password" placeholder="Verify Password" maxlength="8" required>
+    </div>
+    
+    <div>
+        <label for="country"><i class="fa-solid fa-globe"></i></label>
+        <select name="country" id="country">
+            <option value="unitedkingdom">United Kingdom</option>
+            <option value="denmark">Denmark</option>
+            <option value="turkey" selected>Turkey</option>
+            <option value="france">France</option>
+            <option value="russia">Russia</option>
+            <option value="brazil">Brazil</option>
+            <option value="belgium">Belgium</option>
+            <option value="germany">Germany</option>
+            <option value="canada">Canada</option>
+        </select>
+    </div>
+    <div class="age">
+        <input type="radio" name="age" id="ageup" value="ageup" checked>
+        <label for="ageup">18 years and older</label>
+    </div>
+    <div class="age">
+        <input type="radio" name="age" id="agedown" value="ageup">
+        <label for="agedown">18 years and under</label>
+    </div>
+    <div>
+        <input type="checkbox" id="accept" name="accept">
+        <label for="accept">I accept user agreement</label>
+    </div>
+    <div>
+        <button>Gönder</button>
+    </div>
+</form>
+
+</body>
+</html>
